@@ -1,0 +1,5 @@
+RunTest.class
+steps\AccountSetupPagesteps.class
+steps\BookingPagesteps.class
+steps\openAccountPagesteps.class
+steps\outlinePagesteps.class

@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Verify that new account cannot be created with an invalid email address",
+        "description": "",
+        "id": "new-user-creation-for-mendeley.com;verify-that-new-account-cannot-be-created-with-an-invalid-email-address",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5060147894,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on mendeley homepage",
+            "match": {
+              "location": "NewUserPagesteps.i_am_on_mendeley_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 359681428,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select create account",
+            "match": {
+              "location": "NewUserPagesteps.i_select_create_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67851,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see the first create account page",
+            "match": {
+              "location": "NewUserPagesteps.i_should_see_the_first_create_account_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2511799054,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter invalid email address in the email address field",
+            "match": {
+              "location": "NewUserPagesteps.i_enter_invalid_email_address_in_the_email_address_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1170707259,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click continue",
+            "match": {
+              "location": "NewUserPagesteps.i_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69930500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see an error message",
+            "match": {
+              "location": "NewUserPagesteps.i_should_see_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Scenario5"
+          }
+        ]
+      }
+    ],
+    "name": "New user creation for mendeley.com",
+    "description": "As a user I want to create a new account for mendeley.com",
+    "id": "new-user-creation-for-mendeley.com",
+    "keyword": "Feature",
+    "uri": "NewUser.feature"
+  }
+]
